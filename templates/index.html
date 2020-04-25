@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shivam's 1st</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#a1 {
+			color: olivedrab; 
+			text-align: center; 
+			font-size: 50px; 
+			width: 60%;
+			margin: auto;
+		}
+
+		.d_image{
+			position: relative;
+			display: inline-block;
+                        width: 320px;
+                        height: 240px;
+		}
+
+		.image { 
+			width: 320px;
+			height: 240px;
+		}
+
+		.in_div{
+			position: absolute;
+			height: 94%;
+			width: 97%;
+			top: 4px;
+			left: 4px;
+			border: 1px solid white;
+			visibility: hidden;
+		}
+    .text{
+			position: absolute;
+			left:0;
+			top:40%;
+			width:100%;
+			text-align: center;
+			visibility: hidden;
+			color: orangered;
+                        font-size:40px;
+		}
+
+		.d_image:hover img{
+			opacity: 40%;
+		}
+
+		.d_image:hover div{
+			visibility: visible;
+		}
+    #big_mod{
+			display:none;
+			position:fixed;
+			top:0;
+			left:0;
+			width:100%;
+			height:100%;
+			background-color: rgba(0,0,0,0.9);
+			z-index:3;
+		}
+    #modal{
+			display:block;
+			position: absolute;
+			z-index:2;
+			left:15%;
+			top:15%;
+			width:70%;
+			height:60%;
+			text-align: center;
+			color: white;
+			font-size:40px;
+			border: 3px solid olive;
+			background-color: rgba(150,150,150,0.4);
+		}
+
+		#mod_img{
+			float:left;
+			width:65%;
+			height:100%;
+			margin-right:10%;
+		}
+		#mod_txt{
+			float:right;
+			top:0;
+			width:20%;
+			height:100%;
+			color: pink;
+			font-size:30px;
+			margin-right:5%;
+		}
+</style>
+</head>
+<body style = "background-color: aliceblue; width: 90%; height: 100%; margin: auto">	
+	<div id="big_mod">
+		<div id="modal">
+			<img id="mod_img">
+			<div id="mod_txt">
+				<p>Description</p>
+                                <hr>
+					Indian Monuments</hr>
+			</div>
+		</div>
+	</div>
+	<h1 id ="a1"> Shivam's Gallery </h1>
+	<div id ="div1" class="d_image">
+		<img id="img1" src ="https://static-blog.treebo.com/wp-content/uploads/2018/08/Taj-Mahal.jpg" class="image">
+		<div class="in_div"></div>				
+		<div class="text">Taj Mahal</div>
+	</div>
+	<div id ="div2" class="d_image">
+		<img src ="https://static-blog.treebo.com/wp-content/uploads/2018/08/Red-Fort.jpg" class="image">
+		<div class="in_div"></div>
+		<div class="text">Red Fort</div>
+	</div>
+	<div id ="div3" class="d_image">
+		<img src ="https://static-blog.treebo.com/wp-content/uploads/2018/08/Fatehpur-Sikri-1.jpg" class="image">
+		<div class="in_div"></div>
+		<div class="text">Fatehpur Sikri</div>
+	</div>
+	<div id ="div4" class="d_image">
+		<img src ="https://static-blog.treebo.com/wp-content/uploads/2018/08/Agra-Fort.jpg" class="image">
+		<div class="in_div"></div>
+		<div class="text">Agra Fort</div>
+	</div>
+  <div id ="div5" class="d_image">
+		<img src ="https://static-blog.treebo.com/wp-content/uploads/2018/08/The-Gorgeous-Golden-Temple.jpg" class="image">
+		<div class="in_div"></div>
+		<div class="text">Golden Temple</div>
+	</div>
+	<div id ="div6" class="d_image">
+		<img src ="https://static-blog.treebo.com/wp-content/uploads/2018/08/Sanchi-Stupa.jpg" class="image">
+		<div class="in_div"></div>
+		<div class="text">Sanchi Stupa</div>
+	</div>
+
+	<div id ="div7" class="d_image">
+		<img src ="https://static-blog.treebo.com/wp-content/uploads/2018/08/The-Gateway-of-India.jpg" class="image">
+		<div class="in_div"></div>
+		<div class="text">The Gateway of India</div>
+	</div> 
+
+	<div id ="div8" class="d_image">
+		<img src ="https://static-blog.treebo.com/wp-content/uploads/2018/08/Jantar-Mantar.jpg" class="image">
+		<div class="in_div"></div>
+		<div class="text">Jantar Mantar</div>
+	</div> 
+        <div id ="div9" class="d_image">
+		<img src ="https://static-blog.treebo.com/wp-content/uploads/2018/08/Konark-Sun-Temple.jpg" class="image">
+		<div class="in_div"></div>
+		<div class="text">Konark Sun Temple</div>
+	</div> 
+	<div id ="div10" class="d_image">
+		<img src ="https://static-blog.treebo.com/wp-content/uploads/2018/08/Amber-Fort.jpg" class="image">
+		<div class="in_div"></div>
+		<div class="text">Amber Fort</div>
+	</div> 
+	<div id ="div11" class="d_image">
+		<img src ="https://static-blog.treebo.com/wp-content/uploads/2018/08/Golgumbaz.jpg" class="image">
+		<div class="in_div"></div>
+		<div class="text">Gol Gumbaz</div>
+	</div> 
+	<div id ="div12" class="d_image">
+    <img src ="https://static-blog.treebo.com/wp-content/uploads/2018/08/Humayun%E2%80%99s-Tomb-1.jpg" class="image">
+		<div class="in_div"></div>
+		<div class="text">Humayun Tomb</div>
+	</div> 
+	<div id ="div13" class="d_image">
+		<img src ="https://static-blog.treebo.com/wp-content/uploads/2018/08/Mamleshwar-Temple.jpg" class="image">
+		<div class="in_div"></div>
+		<div class="text">Mahabaleshwar Temple</div>
+	</div> 
+	<div id ="div14" class="d_image">
+		<img src ="https://static-blog.treebo.com/wp-content/uploads/2018/08/Bibi-Ka-Maqbara.jpg" class="image">
+		<div class="in_div"></div>
+		<div class="text">Biwi Ka Maqbara</div>
+	</div> 
+	<div id ="div15" class="d_image">
+		<img src ="https://static-blog.treebo.com/wp-content/uploads/2018/08/Konark-Sun-Temple.jpg" class="image">
+		<div class="in_div"></div>
+		<div class="text">Sun Temple</div>
+    </div>
+        <div id ="div16" class="d_image">
+		<img src ="https://www.treebo.com/blog/wp-content/uploads/2018/08/The-Jama-Masjid.jpg" class="image">
+		<div class="in_div"></div>
+		<div class="text">Jama Masjid</div>
+	</div> 
+	<script>
+
+		for (var i = 0; i < 16; i++) {
+			const n = document.getElementsByClassName("d_image")[i];
+			n.addEventListener("click", function(e){
+				console.log(e)
+				var myModal = document.getElementById("big_mod");
+				myModal.style.display = "block";
+				var myImg = document.getElementById("mod_img");
+				myImg.src = e.currentTarget.firstElementChild.src;
+				e.preventDefault();
+			});
+		}
+		const m = document.getElementById("big_mod");
+		m.addEventListener("click", function(e){
+			if (e.target.id == "big_mod"){
+				var myModal = document.getElementById("big_mod");
+				myModal.style.display = "none";
+			}
+		});
+	</script>
+</body>
+</html>
